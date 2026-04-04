@@ -1,0 +1,26 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>SignalR ASP.NET CORE</title>
+</head>
+<body>
+    <div>
+        <label>
+            Nick Name:<br />
+            <input type="text" id="username" /><br /><br />
+        </label>
+        <label>
+            Message:<br />
+            <input type="text" id="message" /><br /><br />
+        </label>
+        <br />
+        <input type="button" id="sendBtn" value="Send" disabled="disabled" />
+    </div>
+    <div id="chatroom"></div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/microsoft-signalr/9.0.6/signalr.min.js"></script>
+    <script src="../js/indexFormJS.js"></script>
+
+</body>
+</html>
