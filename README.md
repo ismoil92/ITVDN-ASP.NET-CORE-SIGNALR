@@ -3,7 +3,7 @@
 ### ASP.NET Core SignalR.
 
 1. Введение в SignalR. Ветка (practice-1).
-2. Серверная часть. Hub и HubContext.
+2. Серверная часть. Hub и HubContext. Ветка (practice-2).
 3. Клиентская часть. .NET и JS.
 4. Пользователи и группы в SignalR Core.
 5. Безопасность, аутентификация и авторизация в SignalR.
