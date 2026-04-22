@@ -1,0 +1,23 @@
+﻿<html>
+    <head>
+        <meta charset="utf-8" />
+        <title>SignalR Chat</title>
+    </head>
+    <body>
+        <h2>Chat message</h2>
+        <div>
+            <input type="text" id="username" placeholder="Your User Name" />
+            <input type="text" id="message" placeholder="Your Message" />
+        <input type="button" id="sendBtn" value="Send" />
+        </div>
+
+        <div>
+            <button onclick="getTime()">GetServerTime</button>
+            <button onclick="getTimeAsync()">GetServerTimeAsync </button>
+        </div>
+
+    <div id=messages></div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/microsoft-signalr/9.0.6/signalr.min.js"></script>
+    <script src="~/js/indexformJS.js"></script>
+    </body>
+</html>
