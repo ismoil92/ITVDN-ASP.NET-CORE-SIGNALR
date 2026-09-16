@@ -1,0 +1,34 @@
+﻿<Window x:Class="WpfClientApp.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfClientApp"
+        mc:Ignorable="d"
+        Title="WPF Chat" Height="450" Width="800">
+    <!--<StackPanel>
+        <Grid>
+            <Label Content="Enter username"/>
+            <TextBox x:Name="userNameTxtBox"/>
+            <Label Content="Enter groupname"/>
+            <TextBox x:Name="groupNameTxtBox"/>
+            <Button x:Name="entergroupBtn" Content="Enter To Group" Click="Enter_Group_Button_Click"/>
+        </Grid>
+        <Grid>
+            <Label Content="Enter message"/>
+            <TextBox x:Name="messageTxtBox"/>
+            <Button x:Name="sendBtn" Content="Send" Click="Send_Button_Click"/>
+        </Grid>
+        <Grid>
+            <Button x:Name="exitgroupBtn" Content="Exit From Group" Click="Exit_Group_Button_Click"/>
+        </Grid>
+        <Grid>
+            <Label Content="Enter message" />
+            <TextBox x:Name="messageExpTxtBox"/>
+            <Label Content="Enter groupname"/>
+            <TextBox x:Name="groupNameExpTxtBox"/>
+            <Button x:Name="sendBtnExp" Content="Send Except" Click="Send_Except_Button_Click"/>
+        </Grid>
+        <ListBox x:Name="chatbox"/>
+    </StackPanel>-->
+</Window>

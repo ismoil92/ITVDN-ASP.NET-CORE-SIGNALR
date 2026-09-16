@@ -1,0 +1,43 @@
+﻿<Window x:Class="WpfClientSignalR.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfClientSignalR"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800" Background="Gray" Loaded="Window_Loaded"> 
+    <Grid>
+        <StackPanel>
+            <Label Content="Enter to login"/>
+            <TextBox x:Name="userName" Width="100" HorizontalAlignment="Left"/>
+            <Label Content="Enter to groupname"/>
+            <TextBox x:Name="groupName" Width="100" HorizontalAlignment="Left"/>
+            <Button x:Name="enterGroupBtn" Content="Enter To Group"
+                    Width="100" HorizontalAlignment="Left" Click="enterGroupBtn_Click"/>
+            <TextBlock>---------------------</TextBlock>
+        </StackPanel>
+        <StackPanel Margin="0 120 0 0">
+            <Label Content="Enter to message"/>
+            <TextBox x:Name="messageTextBox" Width="100" HorizontalAlignment="Left"/>
+            <Button x:Name="sendMessageBtn" Content="Send Message"
+                    Width="100" HorizontalAlignment="Left" Click="sendMessageBtn_Click" IsEnabled="False"/>
+            <TextBlock>---------------------</TextBlock>
+        </StackPanel>
+        <StackPanel Margin="0 210 0 0">
+            <Button Name="exitGroupBtn" Content="Exit From Group"
+                    Width="100" HorizontalAlignment="Left" Click="exitGroupBtn_Click"/>
+            <TextBlock>---------------------</TextBlock>
+        </StackPanel>
+        <StackPanel Margin="0 240 0 0">
+            <Label Content="Except Message"/>
+            <TextBox Name="expMessageTextBox" Width="100" HorizontalAlignment="Left"/>
+            <Label Content=" Except Group Name"/>
+            <TextBox x:Name="expGroupNameTxTBox" Width="100" HorizontalAlignment="Left"/>
+            <Button x:Name="sendExpButton" Content="Send_Mes_Exc_Grp"
+                    Width="100" HorizontalAlignment="Left" Click="sendExpButton_Click"/>
+        </StackPanel>
+        <StackPanel>
+            <ListBox x:Name="chatListBox" Margin="350 10 200 0" Height="300" Background="LightGray"/>
+        </StackPanel>
+    </Grid>
+</Window>

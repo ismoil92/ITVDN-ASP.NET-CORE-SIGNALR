@@ -1,0 +1,35 @@
+﻿<!DOCTYPE html>
+<html>
+    <head>
+        <title>SignalR Chat</title>
+        <meta charset="utf-8" />
+    </head>
+    <body>
+        <div>
+            <input type="text" placeholder="My User Name" id="username" />
+            <input type="text" placeholder="My Group Name" id="groupname" />
+            <input type="button" value="Enter to Group" id="entergroupBtn" />
+        </div>
+
+        <div>
+            <input type="text" placeholder="My Messages" id="message" />
+            <input type="button" value="Send" id="sendBtn" />
+        </div>
+
+        <div>
+            <input type="button" value="Exit from Group" id="exitgroupBtn" />
+        </div>
+
+        <div>
+            <input type="text" placeholder="My Except message" id="messageExp" />
+            <input type="text" placeholder=" My Except groupname" id="groupnameExp" />
+            <input type="button" value="Send Except Message" id="sendExpBtn"/>
+        </div>
+
+
+
+        <div id="chatroom"></div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/microsoft-signalr/9.0.6/signalr.min.js"></script>
+    <script src="~/js/indexformJS.js"></script>
+    </body>
+</html>
