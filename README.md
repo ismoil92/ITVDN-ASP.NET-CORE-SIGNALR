@@ -5,7 +5,7 @@
 1. Введение в SignalR. Ветка (practice-1).
 2. Серверная часть. Hub и HubContext. Ветка (practice-2).
 3. Клиентская часть. JS. (practice-3)
-4. Пользователи и группы в SignalR Core.
+4. Пользователи и группы в SignalR Core. Ветка (practice-4)
 5. Безопасность, аутентификация и авторизация в SignalR.
 6. Протокол MessagePack.
 7. Потоковая передача.
